@@ -1,0 +1,39 @@
+/* ----------------------------------------------------------------			[ All Css Plugins ]-----------------------------------------------------------------*/
+
+
+/* == bootstrap == */
+
+@import url("plugins/bootstrap-grid.min.css");
+
+/* == fontawesome == */
+
+@import url("plugins/font-awesome.min.css");
+
+/* == animate == */
+
+@import url("plugins/animate.css");
+
+/* == slick == */
+
+@import url("plugins/slick.css");
+
+/* == Swiper == */
+
+@import url("plugins/swiper.min.css");
+
+/* == aos == */
+
+@import url("plugins/aos.css");
+
+/* == justifiedGallery == */
+
+@import url("plugins/justifiedGallery.min.css");
+
+/* == magnific popup == */
+
+@import url("plugins/magnific-popup.css");
+
+/* == magnific popup == */
+
+@import url("plugins/youtubepopup.css");
+@import url("plugins/jsmodern.min.css");
