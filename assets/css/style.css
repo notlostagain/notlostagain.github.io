@@ -2474,7 +2474,7 @@ body>* {
 .preloader .preloader-block .message {
     position: absolute;
     left: 0;
-    bottom: calc(30% + 16px);
+    bottom: calc(35% + 16px);
     width: 100%;
     text-align: center;
     z-index: 2;

@@ -84,7 +84,7 @@
                 onComplete: function() {
                     TweenMax.to(preloader_bar, .5, { left: '100%' });
                     TweenMax.to(progress_title, 1, { autoAlpha: 0, y: -100 });
-                    TweenMax.to(progress_message, 1, { autoAlpha: 0, y: -100 });
+                    TweenMax.to(progress_message, 1, { autoAlpha: 0, y: 0 });
                     TweenMax.to(progress_loading, 1, { autoAlpha: 0, y: 100 });
                     TweenMax.to(progress_number, 1, { autoAlpha: 0 });
 
