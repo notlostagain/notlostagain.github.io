@@ -2471,6 +2471,19 @@ body>* {
     color: #fff;
 }
 
+.preloader .preloader-block .message {
+    position: absolute;
+    left: 0;
+    bottom: calc(30% + 16px);
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
 .preloader .preloader-block .percent {
     position: absolute;
     top: 50%;

@@ -54,6 +54,7 @@
         var preloader_block = preloader.find('.preloader-block');
         var progress_number = preloader_block.find('.percent');
         var progress_title = preloader_block.find('.title');
+        var progress_message = preloader_block.find('.message');
         var progress_loading = preloader_block.find('.loading');
 
         var preloader_bar = preloader.find('.preloader-bar');
@@ -83,6 +84,7 @@
                 onComplete: function() {
                     TweenMax.to(preloader_bar, .5, { left: '100%' });
                     TweenMax.to(progress_title, 1, { autoAlpha: 0, y: -100 });
+                    TweenMax.to(progress_message, 1, { autoAlpha: 0, y: -100 });
                     TweenMax.to(progress_loading, 1, { autoAlpha: 0, y: 100 });
                     TweenMax.to(progress_number, 1, { autoAlpha: 0 });
 
